@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classExercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/arrays/StoreTest/StoreCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/arrays/sales/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/arrays/sales/Sales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/arrays/turtle/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/arrays/turtle/PenPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/arrays/turtle/SketchPad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/unicornWimps/arrays/turtle/Turtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myBank/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/UnicornTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/unicornWimps/arrays/StoreTest/StoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/unicornWimps/arrays/sales/SalesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/unicornWimps/arrays/turtle/TurtleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/myBank/AccountTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BLf3415aFOKzpVxYjk2yJilqGb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "/home/codefactory/IdeaProjects/classExercises/src/com/unicornWimps/arrays/sales",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.unicornWimps.arrays.sales" />
+      <recent name="com.unicornWimps.arrays.SalesTest" />
+      <recent name="com.unicornWimps.arrays.StoreTest" />
+      <recent name="com.unicornWimps.arrays.turtle" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="myBank" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountTest.cannotDepositNegativeAmount">
+    <configuration name="AccountTest.accountCanBeCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myBank" />
+      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
+      <option name="METHOD_NAME" value="accountCanBeCreatedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.cannotDepositNegativeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myBank" />
+      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
+      <option name="METHOD_NAME" value="cannotDepositNegativeAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unicornWimps.arrays.sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.unicornWimps.arrays.sales" />
+      <option name="MAIN_CLASS_NAME" value="com.unicornWimps.arrays.sales.SalesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesTest.addItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unicornWimps.arrays.sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.unicornWimps.arrays.sales" />
+      <option name="MAIN_CLASS_NAME" value="com.unicornWimps.arrays.sales.SalesTest" />
+      <option name="METHOD_NAME" value="addItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesTest.calculateEarnings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.unicornWimps.arrays.sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.unicornWimps.arrays.sales" />
+      <option name="MAIN_CLASS_NAME" value="com.unicornWimps.arrays.sales.SalesTest" />
+      <option name="METHOD_NAME" value="calculateEarnings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountTest.cannotDepositNegativeAmount" />
+        <item itemvalue="JUnit.AccountTest.accountCanBeCreatedTest" />
+        <item itemvalue="JUnit.SalesTest.addItems" />
+        <item itemvalue="JUnit.SalesTest" />
+        <item itemvalue="JUnit.SalesTest.calculateEarnings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="" />
+      <created>1656690087316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656690087316</updated>
+      <workItem from="1656690092409" duration="1871000" />
+      <workItem from="1657058044911" duration="181000" />
+      <workItem from="1657727158934" duration="21000" />
+      <workItem from="1657728005188" duration="608000" />
+      <workItem from="1657798967053" duration="599000" />
+      <workItem from="1657869833363" duration="599000" />
+      <workItem from="1657887915931" duration="588000" />
+      <workItem from="1657905967078" duration="598000" />
+      <workItem from="1658411574370" duration="10064000" />
+      <workItem from="1658442253892" duration="840000" />
+      <workItem from="1658552809331" duration="38308000" />
+      <workItem from="1658661560909" duration="8134000" />
+      <workItem from="1658726010759" duration="3049000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/unicornWimps/arrays/sales/Sales.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/myBank/AccountTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
