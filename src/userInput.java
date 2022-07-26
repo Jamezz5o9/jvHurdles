@@ -3,14 +3,16 @@ import java.util.Scanner;
 public class userInput {
     private static final Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-       // collectInput();
-        highAndLow();
+       collectInput();
+        //highAndLow();
         //highestAndLow();
     }
 
     public static void collectInput(){
-        int largest = 0;
-        int lowest = 1_000_000_000;
+//        int largest = 0;
+//        int lowest = 1_000_000_000;
+        int largest = Integer.MIN_VALUE;
+        int lowest = Integer.MAX_VALUE;
 
         for(int i = 1; i <= 5; i++){
             System.out.printf("Enter number %d%n", i);
