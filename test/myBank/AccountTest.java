@@ -7,13 +7,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AccountTest {
-    private Account account;
     private Account bankeAccount;
 
     @BeforeEach
     public void setUp(){
-        account = new Account();
-        bankeAccount = new Account("1", "Banke Celina", "1234");
+        bankeAccount = new Account("1", "Banke Celina", "1212");
     }
 
     @Test
@@ -21,8 +19,8 @@ public class AccountTest {
         //given that account exist
         //check that account exists
         //Check that balance is zero
-        assertNotNull(account);
-        assertEquals(0, account.getBalance());
+        assertNotNull(bankeAccount);
+        assertEquals(0, bankeAccount.getBalance("1212"));
 
     }
 
@@ -33,10 +31,10 @@ public class AccountTest {
         //when i deposit 200
         //check that balance is 200
 
-        bankeAccount = new Account();
-        assertEquals(0, bankeAccount.getBalance());
+        assertEquals(0, bankeAccount.getBalance("1212"));
         bankeAccount.deposit(200);
-        assertEquals(200, bankeAccount.getBalance());
+        int myBalance = bankeAccount.getBalance("1212");
+        assertEquals(200, myBalance);
 
     }
 
@@ -46,15 +44,49 @@ public class AccountTest {
         //when i try to deposit negative amount -2500
         //check that balance is zero;
 
-        bankeAccount = new Account();
-        assertEquals(0, bankeAccount.getBalance());
+
+        assertEquals(0, bankeAccount.getBalance("1212"));
         bankeAccount.deposit(-2500);
-        assertEquals(0, bankeAccount.getBalance());
+        assertEquals(0, bankeAccount.getBalance("1212"));
 
     }
     @Test
     @DisplayName("Getting balance with invalid pin returns ")
-    public void checkForPinThatAreInvalid(){
+    public void getBalanceWithWrongPin_returnsZeroTest(){
+    //given i have money in my account
+        //when i check my balance with wrong pin
+        //balance is zero
+
+        bankeAccount.deposit(2000);
+        int myBalance = bankeAccount.getBalance("1212");
+        assertEquals(2000, myBalance);
+    }
+
+    @Test
+    @DisplayName("Getting balance with invalid pin returns ")
+    public void getBalanceWithWrongPin_returnsZeroTestTwice(){
+        //given i have money in my account
+        //when i check my balance with wrong pin
+        //balance is zero
+
+        bankeAccount.deposit(2000);
+        int myBalance = bankeAccount.getBalance("1234");
+        assertEquals(0, myBalance);
+    }
+
+    @Test
+    @DisplayName("Withdraw amount that is greater than the balance in your account")
+    public void withdrawAmountThatIsGreaterThanBalance(){
+        //given you have account
+        //given you have money input the correct pin
+        //given you have money above balance
+
+        int myBal = bankeAccount.getBalance("1212");
+        assertEquals(0, myBal);
+        bankeAccount.deposit(12_000);
+        assertEquals(12_000, bankeAccount.getBalance("1212"));
+        bankeAccount.withdraw(10_000);
+        assertEquals(2000, bankeAccount.getBalance("1212"));
 
     }
 }

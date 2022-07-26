@@ -12,17 +12,24 @@ public class Account {
         number = accountNumber;
         name = accountName;
     }
-    public int getBalance(){
-        return balance;
+    public int getBalance(String pin){
+        if(pin.equals(this.pin)) return balance;
+        return 0;
     }
 
     public void deposit(int amount) {
-        //if(amount > 0) balance = getBalance + amount;
+       // if(amount > 0) balance = getBalance(pin) + amount;
         if(amount < 0){
             amount = 0;
             //amount = getBalance();
         } else{
-            balance = getBalance() + amount;
+            balance = getBalance(pin) + amount;
+        }
+    }
+
+    public void withdraw(int amount){
+        if(balance > amount && pin.equals(this.pin)){
+           balance -= amount;
         }
     }
 }
