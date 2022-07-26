@@ -85,8 +85,33 @@ public class AccountTest {
         assertEquals(0, myBal);
         bankeAccount.deposit(12_000);
         assertEquals(12_000, bankeAccount.getBalance("1212"));
-        bankeAccount.withdraw(10_000);
+        bankeAccount.withdraw(-10_000, "1212");
+        assertEquals(12000, bankeAccount.getBalance("1212"));
+        bankeAccount.withdraw(10_000, "1212");
         assertEquals(2000, bankeAccount.getBalance("1212"));
 
+    }
+
+
+    @Test
+    public void withdrawWrongPinDoesNotWork(){
+        bankeAccount.deposit(5000);
+        bankeAccount.withdraw(2000, "1223");
+        assertEquals(5000, bankeAccount.getBalance("1212"));
+    }
+    @Test
+    @DisplayName("If pin is correct ane amount exceeds balance, withdraw does not work")
+    public void withdrawWithRightPinAndHighAmountDoesNotWorkTest(){
+        bankeAccount.deposit(5_000);
+        bankeAccount.withdraw(5000, "1212");
+        assertEquals(0, bankeAccount.getBalance("1212"));
+
+    }
+
+    @Test
+    public void withdrawRightPinWorksTest(){
+        //given that i have account
+        //given when i try to withdraw 2000 with 1234 as pin
+        //check that current balance is 3000
     }
 }

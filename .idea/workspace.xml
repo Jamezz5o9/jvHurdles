@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Diary/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diary/Diary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diary/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diary/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/myBank/BankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myBank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/myBank/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myBank/AccountTest.java" afterDir="false" />
@@ -72,34 +70,15 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Output">
-    <configuration name="Diary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Diary.Diary" />
+  <component name="RunManager" selected="Application.userInput">
+    <configuration name="userInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="userInput" />
       <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Diary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Diary.Output" />
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Diary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.accountCanBeCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -109,24 +88,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="myBank" />
       <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
-      <option name="METHOD_NAME" value="accountCanBeCreatedTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.depositMoney_balanceIncreasesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myBank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
-      <option name="METHOD_NAME" value="depositMoney_balanceIncreasesTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,13 +109,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest.withdrawWithRightPinAndHighAmountDoesNotWorkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myBank" />
+      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
+      <option name="METHOD_NAME" value="withdrawWithRightPinAndHighAmountDoesNotWorkTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.withdrawWrongPinDoesNotWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myBank" />
+      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
+      <option name="METHOD_NAME" value="withdrawWrongPinDoesNotWork" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Output" />
-        <item itemvalue="Application.Diary" />
+        <item itemvalue="Application.userInput" />
+        <item itemvalue="JUnit.AccountTest.withdrawWithRightPinAndHighAmountDoesNotWorkTest" />
+        <item itemvalue="JUnit.AccountTest.withdrawWrongPinDoesNotWork" />
+        <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.AccountTest.withdrawAmountThatIsGreaterThanBalance" />
-        <item itemvalue="JUnit.AccountTest.depositMoney_balanceIncreasesTest" />
-        <item itemvalue="JUnit.AccountTest.accountCanBeCreatedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +173,7 @@
       <workItem from="1658661560909" duration="8134000" />
       <workItem from="1658726010759" duration="4308000" />
       <workItem from="1658764308602" duration="14247000" />
-      <workItem from="1658793005379" duration="4964000" />
+      <workItem from="1658793005379" duration="19113000" />
     </task>
     <servers />
   </component>
