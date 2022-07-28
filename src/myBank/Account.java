@@ -29,12 +29,28 @@ public class Account {
 //        }
     }
 
+    public String getPin() {
+        return pin;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getBalance() {
+        return balance;
+    }
+
     public void withdraw(int amount, String pin){
-        boolean amountIsValid = balance > amount && amount > 0;
+        boolean amountIsValid = balance >= amount && amount > 0;
         if(isCorrect(pin) && amountIsValid){
            balance -= amount;
         } else {
-            balance = 0;
+           balance = getBalance();
         }
     }
     private boolean isCorrect(String pin){

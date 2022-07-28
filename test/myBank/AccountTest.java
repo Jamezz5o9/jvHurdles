@@ -109,6 +109,12 @@ public class AccountTest {
     }
 
     @Test
+    public void getBackBalanceIfUserWantToWithdrawAmountAboveBalance(){
+        bankeAccount.deposit(5_000);
+        bankeAccount.withdraw(10_000, "1212");
+        assertEquals(5000, bankeAccount.getBalance("1212"));
+    }
+    @Test
     public void withdrawRightPinWorksTest(){
         //given that i have account
         //given when i try to withdraw 2000 with 1234 as pin
