@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myBank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week9/inputBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9/AnimalTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9/SimpleAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9/secondSimpleAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9/thirdSimpleAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9Ass/BaseCommissionEmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9Ass/BaseCommissionRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9Ass/CommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter9Ass/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AnimalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diary/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diary/Diary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diary/Entry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diary/Output.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myBank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/myBank/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myBank/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/myBank/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myBank/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,80 +77,58 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BaseCommissionEmployeeTest">
+    <configuration name="AnimalTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter9.AnimalTesting" />
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myBank.*" />
+          <option name="PATTERN" value="Chapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.cannotDepositNegativeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseCommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter9Ass.BaseCommissionEmployeeTest" />
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myBank.*" />
+          <option name="PATTERN" value="Chapter9Ass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
-      <option name="METHOD_NAME" value="cannotDepositNegativeAmount" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.checkCategoriesOfAnnelids" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnimalTest" />
+      <option name="METHOD_NAME" value="checkCategoriesOfAnnelids" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.getBackBalanceIfUserWantToWithdrawAmountAboveBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalTest.checkForDangerousAnimalInMammalsCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myBank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
-      <option name="METHOD_NAME" value="getBackBalanceIfUserWantToWithdrawAmountAboveBalance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnimalTest" />
+      <option name="METHOD_NAME" value="checkForDangerousAnimalInMammalsCategory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalTest.workersWasPaidCorrectSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myBank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.BankTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankTest.withdrawNegativeAmountFromAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myBank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.BankTest" />
-      <option name="METHOD_NAME" value="withdrawNegativeAmountFromAccount" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnimalTest" />
+      <option name="METHOD_NAME" value="workersWasPaidCorrectSalary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.BankTest" />
-        <item itemvalue="JUnit.AccountTest.getBackBalanceIfUserWantToWithdrawAmountAboveBalance" />
-        <item itemvalue="JUnit.BankTest.withdrawNegativeAmountFromAccount" />
-        <item itemvalue="JUnit.AccountTest.cannotDepositNegativeAmount" />
+        <item itemvalue="Application.BaseCommissionEmployeeTest" />
+        <item itemvalue="JUnit.AnimalTest.workersWasPaidCorrectSalary" />
+        <item itemvalue="Application.AnimalTesting" />
+        <item itemvalue="JUnit.AnimalTest.checkForDangerousAnimalInMammalsCategory" />
+        <item itemvalue="JUnit.AnimalTest.checkCategoriesOfAnnelids" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +168,13 @@
       <workItem from="1658764308602" duration="14247000" />
       <workItem from="1658793005379" duration="36465000" />
       <workItem from="1658925928403" duration="2500000" />
-      <workItem from="1659005862036" duration="1005000" />
+      <workItem from="1659005862036" duration="1730000" />
+      <workItem from="1659048917178" duration="1282000" />
+      <workItem from="1659223498195" duration="1500000" />
+      <workItem from="1659365106573" duration="1277000" />
+      <workItem from="1659444052932" duration="599000" />
+      <workItem from="1659601146054" duration="10609000" />
+      <workItem from="1659636196994" duration="2090000" />
     </task>
     <servers />
   </component>
