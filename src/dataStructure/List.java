@@ -3,12 +3,10 @@ package dataStructure;
 public interface List {
     void add(String item);
     void remove(int id);
-    void remove(String item);
     String get(int id);
    void add(int id, String item);
-   int clear();
    int size();
    boolean isEmpty();
-   boolean contains(String anotherItem);
 
+    boolean contains(String anotherItem);
 }

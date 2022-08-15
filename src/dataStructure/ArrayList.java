@@ -1,26 +1,26 @@
 package dataStructure;
 
 public class ArrayList implements List{
-
     private boolean isEmpty = true;
+    private int count;
+    private String[] elements = new String[5];
+
     @Override
     public void add(String item) {
         isEmpty = false;
+        elements[count] = item;
+        count++;
     }
 
     @Override
     public void remove(int id) {
-
-    }
-
-    @Override
-    public void remove(String item) {
-
+        elements[id] = null;
+        count--;
     }
 
     @Override
     public String get(int id) {
-        return null;
+        return elements[id];
     }
 
     @Override
@@ -28,14 +28,10 @@ public class ArrayList implements List{
 
     }
 
-    @Override
-    public int clear() {
-        return 0;
-    }
 
     @Override
     public int size() {
-        return 0;
+        return count;
     }
 
     @Override

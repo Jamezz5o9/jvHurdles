@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/PayableInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/SalariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter9Ass/HourlyWage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter9Ass/HourlyWagesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Fly1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Fly2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Quack1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Quack2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/strategy/Quackable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/dataStructure/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/designPattern/strategy/DuckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grace/work/checkArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grace/work/checkStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grace/work/compareArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter9Ass/BaseCommissionEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter9Ass/BaseCommissionEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dataStructure/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/dataStructure/ArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +75,39 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayListTest">
-    <configuration name="Chapter10.PayableInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.PayableInterfaceTest" />
+  <component name="RunManager" selected="Application.compareArray">
+    <configuration name="checkArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grace.work.checkArray" />
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter10.*" />
+          <option name="PATTERN" value="Grace.work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grace.work.checkStrings" />
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Grace.work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compareArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grace.work.compareArray" />
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Grace.work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.addItemListIsNotEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest.addXYremoveYSizeIsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -128,39 +140,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="dataStructure" />
       <option name="MAIN_CLASS_NAME" value="dataStructure.ArrayListTest" />
-      <option name="METHOD_NAME" value="addItemListIsNotEmptyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListTest.newListIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="dataStructure.ArrayListTest" />
-      <option name="METHOD_NAME" value="newListIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuckTest.fanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designPattern.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="designPattern.strategy" />
-      <option name="MAIN_CLASS_NAME" value="designPattern.strategy.DuckTest" />
-      <option name="METHOD_NAME" value="fanTest" />
+      <option name="METHOD_NAME" value="addXYremoveYSizeIsOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.compareArray" />
+        <item itemvalue="Application.checkStrings" />
+        <item itemvalue="Application.checkArray" />
         <item itemvalue="JUnit.ArrayListTest" />
-        <item itemvalue="JUnit.ArrayListTest.addItemListIsNotEmptyTest" />
-        <item itemvalue="JUnit.ArrayListTest.newListIsEmpty" />
-        <item itemvalue="JUnit.DuckTest.fanTest" />
-        <item itemvalue="Application.Chapter10.PayableInterfaceTest" />
+        <item itemvalue="JUnit.ArrayListTest.addXYremoveYSizeIsOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,12 +196,27 @@
       <workItem from="1660062616358" duration="3702000" />
       <workItem from="1660070093368" duration="1310000" />
       <workItem from="1660088493338" duration="1613000" />
-      <workItem from="1660118387859" duration="6356000" />
+      <workItem from="1660118387859" duration="16657000" />
+      <workItem from="1660175038174" duration="13831000" />
+      <workItem from="1660234865979" duration="3602000" />
+      <workItem from="1660425139779" duration="609000" />
+      <workItem from="1660483366930" duration="13397000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -232,9 +227,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/test/dataStructure/ArrayListTest.java</url>
-          <line>15</line>
-          <properties class="dataStructure.ArrayListTest" method="addItemListIsNotEmptyTest">
+          <url>file://$PROJECT_DIR$/src/Grace/work/checkArray.java</url>
+          <line>6</line>
+          <properties class="Grace.work.checkArray" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
