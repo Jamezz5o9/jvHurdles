@@ -24,7 +24,7 @@ public class checkStrings {
     }
 
     public static void main(String[] args) {
-        String[] firstArr = {"James", "Kemi", "Titi"};
+        String[] firstArr = {"James", "Lemi", "Titi"};
         String[] secondArr = {"James", "kemi", "Titi"};
 
         if(checkArrayEquality(firstArr, secondArr)){

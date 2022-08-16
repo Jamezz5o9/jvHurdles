@@ -27,7 +27,7 @@ public class compareArray {
 
     public static void main(String[] args) {
         String[] first = {"Favour", "Grace", "Kolade"};
-        String[] second = {"Favour", "Grace", "Kolade"};
+        String[] second = {"Favou", "Grace", "Kolade"};
         if(arrayComparision(first, second)){
             System.out.println("They are equal");
         }else{
