@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FoodQuality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +193,7 @@
       <workItem from="1660425139779" duration="609000" />
       <workItem from="1660483366930" duration="20238000" />
       <workItem from="1660658928695" duration="2895000" />
+      <workItem from="1660733639689" duration="4005000" />
     </task>
     <servers />
   </component>

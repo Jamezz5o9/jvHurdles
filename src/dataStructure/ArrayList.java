@@ -23,11 +23,6 @@ public class ArrayList implements List{
         return elements[id];
     }
 
-    @Override
-    public void add(int id, String item) {
-
-    }
-
 
     @Override
     public int size() {
