@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Grace/work/playingAroung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grace/work/thirdCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FoodQuality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grace/work/checkStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grace/work/checkStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grace/work/compareArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grace/work/compareArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,20 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.thirdCompare">
+  <component name="RunManager" selected="Application.FoodQuality">
+    <configuration name="FoodQuality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.FoodQuality" />
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="checkArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Grace.work.checkArray" />
       <module name="classExercises" />
@@ -126,28 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="dataStructure.ArrayListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FoodQuality" />
         <item itemvalue="Application.thirdCompare" />
         <item itemvalue="Application.checkStrings" />
         <item itemvalue="Application.compareArray" />
         <item itemvalue="Application.checkArray" />
-        <item itemvalue="JUnit.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +191,7 @@
       <workItem from="1660234865979" duration="3602000" />
       <workItem from="1660425139779" duration="609000" />
       <workItem from="1660483366930" duration="20238000" />
+      <workItem from="1660658928695" duration="2895000" />
     </task>
     <servers />
   </component>
