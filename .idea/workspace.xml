@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Bike/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Native/Native.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Bike/BikeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/NativeTest/NativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/dataStructure/SetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,36 +38,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/codefactory/IdeaProjects/classExercises/src/com/unicornWimps/arrays/sales&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "/home/codefactory/IdeaProjects/classExercises/src",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Bike" />
       <recent name="myBank" />
       <recent name="com.unicornWimps.arrays.sales" />
       <recent name="com.unicornWimps.arrays.SalesTest" />
       <recent name="com.unicornWimps.arrays.StoreTest" />
-      <recent name="com.unicornWimps.arrays.turtle" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -71,79 +76,98 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FoodQuality">
-    <configuration name="FoodQuality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.FoodQuality" />
+  <component name="RunManager" selected="JUnit.BikeTest.bikeCanAccelerateOnGearOneTest">
+    <configuration name="BikeTest.bikeCanAccelerateOnGearOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="Bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
+      <option name="METHOD_NAME" value="bikeCanAccelerateOnGearOneTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Grace.work.checkArray" />
+    <configuration name="BikeTest.bikeCanBeTurnedONTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Grace.work.*" />
+          <option name="PATTERN" value="Bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
+      <option name="METHOD_NAME" value="bikeCanBeTurnedONTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Grace.work.checkStrings" />
+    <configuration name="BikeTest.bikeCanBeTurnedOffTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Grace.work.*" />
+          <option name="PATTERN" value="Bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
+      <option name="METHOD_NAME" value="bikeCanBeTurnedOffTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compareArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Grace.work.compareArray" />
+    <configuration name="NativeTest.lyingSCVIDTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Grace.work.*" />
+          <option name="PATTERN" value="NativeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="NativeTest" />
+      <option name="MAIN_CLASS_NAME" value="NativeTest.NativeTest" />
+      <option name="METHOD_NAME" value="lyingSCVIDTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thirdCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Grace.work.thirdCompare" />
+    <configuration name="NativeTest.setCohortIdTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Grace.work.*" />
+          <option name="PATTERN" value="NativeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="NativeTest" />
+      <option name="MAIN_CLASS_NAME" value="NativeTest.NativeTest" />
+      <option name="METHOD_NAME" value="setCohortIdTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FoodQuality" />
-        <item itemvalue="Application.thirdCompare" />
-        <item itemvalue="Application.checkStrings" />
-        <item itemvalue="Application.compareArray" />
-        <item itemvalue="Application.checkArray" />
+        <item itemvalue="JUnit.BikeTest.bikeCanAccelerateOnGearOneTest" />
+        <item itemvalue="JUnit.BikeTest.bikeCanBeTurnedOffTest" />
+        <item itemvalue="JUnit.BikeTest.bikeCanBeTurnedONTest" />
+        <item itemvalue="TestNG.NativeTest.lyingSCVIDTest" />
+        <item itemvalue="TestNG.NativeTest.setCohortIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +217,9 @@
       <workItem from="1660425139779" duration="609000" />
       <workItem from="1660483366930" duration="20238000" />
       <workItem from="1660658928695" duration="2895000" />
-      <workItem from="1660733639689" duration="4005000" />
+      <workItem from="1660733639689" duration="8790000" />
+      <workItem from="1661164195183" duration="2717000" />
+      <workItem from="1661168474125" duration="4737000" />
     </task>
     <servers />
   </component>

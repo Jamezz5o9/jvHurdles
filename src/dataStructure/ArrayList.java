@@ -1,5 +1,7 @@
 package dataStructure;
 
+import java.util.Objects;
+
 public class ArrayList implements List{
     private boolean isEmpty = true;
     private int count;
@@ -36,6 +38,15 @@ public class ArrayList implements List{
 
     @Override
     public boolean contains(String anotherItem) {
+        for (int i = 0; i < size(); i++) {
+            if (Objects.equals(elements[i], anotherItem)) {
+                return true;
+            }
+
+        }
         return false;
+
     }
+
+
 }
