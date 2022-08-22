@@ -24,6 +24,6 @@ public class Bike {
     }
 
     public void increaseSpeed() {
-        speed++;
+       if(isOn) speed++;
     }
 }

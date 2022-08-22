@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bike/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Native/Native.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Bike/BikeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NativeTest/NativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/dataStructure/SetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bike/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bike/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Bike/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Bike/BikeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,22 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BikeTest.bikeCanAccelerateOnGearOneTest">
+  <component name="RunManager" selected="JUnit.BikeTest.bikeWillNotAccelerateWhenBikeIsTurnedOff">
+    <configuration name="BikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BikeTest.bikeCanAccelerateOnGearOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
@@ -125,49 +134,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NativeTest.lyingSCVIDTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeWillNotAccelerateWhenBikeIsTurnedOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NativeTest.*" />
+          <option name="PATTERN" value="Bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NativeTest" />
-      <option name="MAIN_CLASS_NAME" value="NativeTest.NativeTest" />
-      <option name="METHOD_NAME" value="lyingSCVIDTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NativeTest.setCohortIdTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NativeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NativeTest" />
-      <option name="MAIN_CLASS_NAME" value="NativeTest.NativeTest" />
-      <option name="METHOD_NAME" value="setCohortIdTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
+      <option name="METHOD_NAME" value="bikeWillNotAccelerateWhenBikeIsTurnedOff" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BikeTest.bikeWillNotAccelerateWhenBikeIsTurnedOff" />
+        <item itemvalue="JUnit.BikeTest" />
         <item itemvalue="JUnit.BikeTest.bikeCanAccelerateOnGearOneTest" />
         <item itemvalue="JUnit.BikeTest.bikeCanBeTurnedOffTest" />
         <item itemvalue="JUnit.BikeTest.bikeCanBeTurnedONTest" />
-        <item itemvalue="TestNG.NativeTest.lyingSCVIDTest" />
-        <item itemvalue="TestNG.NativeTest.setCohortIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +208,7 @@
       <workItem from="1660658928695" duration="2895000" />
       <workItem from="1660733639689" duration="8790000" />
       <workItem from="1661164195183" duration="2717000" />
-      <workItem from="1661168474125" duration="4737000" />
+      <workItem from="1661168474125" duration="5295000" />
     </task>
     <servers />
   </component>

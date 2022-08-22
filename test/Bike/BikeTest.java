@@ -37,4 +37,15 @@ public class BikeTest {
         bike.increaseSpeed();
         assertEquals(1, bike.getSpeed());
     }
+
+    @Test
+    public void bikeWillNotAccelerateWhenBikeIsTurnedOff(){
+
+        assertFalse(bike.isOn());
+        assertEquals(0, bike.getSpeed());
+
+        bike.increaseSpeed();
+        assertEquals(0, bike.getSpeed());
+
+    }
 }
