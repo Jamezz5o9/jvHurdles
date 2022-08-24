@@ -48,4 +48,75 @@ public class BikeTest {
         assertEquals(0, bike.getSpeed());
 
     }
+
+    @Test
+    public void bikeCanChangeFromGearOneToGearTwoAutomatically(){
+        bike.turnOn();
+        assertEquals(1, bike.getGear());
+        for(int i =0; i < 20; i++){
+            bike.increaseSpeed();
+        }
+        assertEquals(20, bike.getSpeed());
+        assertEquals(1, bike.getGear());
+        bike.increaseSpeed();
+        assertEquals(2, bike.getGear());
+        assertEquals(21, bike.getSpeed());
+    }
+    @Test
+    public void bikeCanAcclerateOnGearTwoTest(){
+        bike.turnOn();
+        for(int i = 0; i < 21; i++){
+            bike.increaseSpeed();
+        }
+
+        assertEquals(2, bike.getGear());
+        assertEquals(21, bike.getSpeed());
+
+        bike.increaseSpeed();
+        assertEquals(23, bike.getSpeed());
+        assertEquals(2, bike.getGear());
+
+        bike.increaseSpeed();
+        assertEquals(25, bike.getSpeed());
+        assertEquals(2, bike.getGear());
+    }
+    @Test
+    public void bikeCanChangeFromGearToGearThree(){
+        bike.turnOn();
+        for(int i = 0; i < 25; i++){
+            bike.increaseSpeed();
+        }
+        assertEquals(29, bike.getSpeed());
+        assertEquals(2, bike.getGear());
+
+        bike.increaseSpeed();
+        assertEquals(3, bike.getGear());
+        assertEquals(31, bike.getSpeed());
+    }
+
+    @Test
+    public void bikeCanChangeFromGearToGearFour(){
+        bike.turnOn();
+        for(int i = 0; i < 29; i++){
+            bike.increaseSpeed();
+        }
+
+        assertEquals(40, bike.getSpeed());
+        assertEquals(3, bike.getGear());
+
+        bike.increaseSpeed();
+        assertEquals(4, bike.getGear());
+        assertEquals(43, bike.getSpeed());
+
+        bike.increaseSpeed();
+        assertEquals(4, bike.getGear());
+        assertEquals(47, bike.getSpeed());
+    }
+
+    @Test
+    public void bikeSpeedShouldNotBeNegative(){
+        bike.turnOn();
+        bike.decreaseSpeed();
+        assertEquals(0, bike.getSpeed());
+    }
 }

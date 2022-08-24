@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bike/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bike/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Bike/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Bike/BikeTest.java" afterDir="false" />
     </list>
@@ -32,26 +34,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_directory_selection": "/home/codefactory/IdeaProjects/classExercises/src",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/codefactory/IdeaProjects/classExercises/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -70,8 +72,8 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BikeTest.bikeWillNotAccelerateWhenBikeIsTurnedOff">
-    <configuration name="BikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BikeTest.bikeCanChangeFromGearOne">
+    <configuration name="BikeTest.bikeCanChangeFromGearOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -81,28 +83,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BikeTest.bikeCanAccelerateOnGearOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bike.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Bike" />
-      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanAccelerateOnGearOneTest" />
+      <option name="METHOD_NAME" value="bikeCanChangeFromGearOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.bikeCanBeTurnedONTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeCanChangeFromGearToGearFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +99,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanBeTurnedONTest" />
+      <option name="METHOD_NAME" value="bikeCanChangeFromGearToGearFour" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.bikeCanBeTurnedOffTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeCanChangeFromGearToGearOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +115,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanBeTurnedOffTest" />
+      <option name="METHOD_NAME" value="bikeCanChangeFromGearToGearOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.bikeWillNotAccelerateWhenBikeIsTurnedOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeCanChangeFromGearToGearThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -144,19 +131,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeWillNotAccelerateWhenBikeIsTurnedOff" />
+      <option name="METHOD_NAME" value="bikeCanChangeFromGearToGearThree" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NativeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NativeTest" />
+      <option name="MAIN_CLASS_NAME" value="NativeTest.NativeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BikeTest.bikeWillNotAccelerateWhenBikeIsTurnedOff" />
-        <item itemvalue="JUnit.BikeTest" />
-        <item itemvalue="JUnit.BikeTest.bikeCanAccelerateOnGearOneTest" />
-        <item itemvalue="JUnit.BikeTest.bikeCanBeTurnedOffTest" />
-        <item itemvalue="JUnit.BikeTest.bikeCanBeTurnedONTest" />
+        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearOne" />
+        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearToGearOne" />
+        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearToGearFour" />
+        <item itemvalue="TestNG.NativeTest" />
+        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearToGearThree" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +212,9 @@
       <workItem from="1660658928695" duration="2895000" />
       <workItem from="1660733639689" duration="8790000" />
       <workItem from="1661164195183" duration="2717000" />
-      <workItem from="1661168474125" duration="5295000" />
+      <workItem from="1661168474125" duration="18652000" />
+      <workItem from="1661255480140" duration="1620000" />
+      <workItem from="1661308332438" duration="8949000" />
     </task>
     <servers />
   </component>
