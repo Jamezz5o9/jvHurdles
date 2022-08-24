@@ -62,6 +62,7 @@ public class Bike {
     }
 
     private void decelerate() {
+
         if(gear == 1) decreaseSpeedOnGearOne();
         if(gear == 2) decreaseTwoGear();
         if(gear == 3) decreaseThreeGear();
@@ -69,19 +70,19 @@ public class Bike {
     }
 
     private void decreaseSpeedOnGearOne() {
-        if(speed < 1) {
-            speed = 0;
-            gear = 0;
-        }
+      speed--;
+      if(speed < 1){
+          speed = 0;
+          gear = 0;
+      }
     }
-
     private void decreaseTwoGear() {
-        if(speed < 21) gear--;
         speed -= 2;
+        if(speed < 21) gear--;
     }
     private void decreaseThreeGear() {
-        if(speed < 31) gear--;
         speed -= 3;
+        if(speed < 31) gear--;
     }
 
     private void decreaseFourGear() {

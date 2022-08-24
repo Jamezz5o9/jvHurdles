@@ -117,6 +117,69 @@ public class BikeTest {
     public void bikeSpeedShouldNotBeNegative(){
         bike.turnOn();
         bike.decreaseSpeed();
+        bike.decreaseSpeed();
+        bike.decreaseSpeed();
+        assertEquals(0, bike.getGear());
         assertEquals(0, bike.getSpeed());
     }
+
+    @Test
+    public void bikeTestThatSpeedCanBeDecrementedByOne(){
+        bike.turnOn();
+        for(int i = 0; i < 10; i++){
+            bike.increaseSpeed();
+        }
+        assertEquals(1, bike.getGear());
+        assertEquals(10, bike.getSpeed());
+
+        for(int i = 0; i < 3; i++){
+             bike.decreaseSpeed();;
+        }
+        assertEquals(1, bike.getGear());
+        assertEquals(7, bike.getSpeed());
+        bike.decreaseSpeed();
+        assertEquals(1, bike.getGear());
+        assertEquals(6, bike.getSpeed());
+    }
+    @Test
+    public void bikeCanChangeFromGearTwoToOne(){
+        bike.turnOn();
+        for(int i = 0; i < 25; i++){
+            bike.increaseSpeed();
+        }
+        assertEquals(2, bike.getGear());
+        assertEquals(29, bike.getSpeed());
+        for(int i = 0; i < 4; i++){
+            bike.decreaseSpeed();
+        }
+        assertEquals(2, bike.getGear());
+        assertEquals(21, bike.getSpeed());
+
+        bike.decreaseSpeed();
+        assertEquals(1, bike.getGear());
+        assertEquals(19, bike.getSpeed());
+
+        bike.decreaseSpeed();
+        assertEquals(1, bike.getGear());
+        assertEquals(18, bike.getSpeed());
+    }
+    @Test
+    public void bikeCanChangeFromGearThreeToTwo(){
+        bike.turnOn();
+        for(int i = 0; i < 29; i++){
+            bike.increaseSpeed();
+        }
+        assertEquals(40, bike.getSpeed());
+        assertEquals(3, bike.getGear());
+        for(int i = 0; i < 3; i++){
+            bike.decreaseSpeed();
+        }
+        assertEquals(31, bike.getSpeed());
+        assertEquals(3, bike.getGear());
+
+        bike.decreaseSpeed();
+        assertEquals(28, bike.getSpeed());
+        assertEquals(2, bike.getGear());
+    }
+
 }

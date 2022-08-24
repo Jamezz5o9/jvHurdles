@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bike/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bike/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Bike/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Bike/BikeTest.java" afterDir="false" />
@@ -72,8 +71,8 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BikeTest.bikeCanChangeFromGearOne">
-    <configuration name="BikeTest.bikeCanChangeFromGearOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BikeTest.bikeCanChangeFromGearThreeToTwo">
+    <configuration name="BikeTest.bikeCanChangeFromGearThreeToTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +82,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanChangeFromGearOne" />
+      <option name="METHOD_NAME" value="bikeCanChangeFromGearThreeToTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.bikeCanChangeFromGearToGearFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeCanChangeFromGearTwoToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +98,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanChangeFromGearToGearFour" />
+      <option name="METHOD_NAME" value="bikeCanChangeFromGearTwoToOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.bikeCanChangeFromGearToGearOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeCannotBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +114,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanChangeFromGearToGearOne" />
+      <option name="METHOD_NAME" value="bikeCannotBeNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.bikeCanChangeFromGearToGearThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeSpeedShouldNotBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
@@ -131,36 +130,35 @@
       </extension>
       <option name="PACKAGE_NAME" value="Bike" />
       <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanChangeFromGearToGearThree" />
+      <option name="METHOD_NAME" value="bikeSpeedShouldNotBeNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.bikeTestThatSpeedCanBeDecrementedByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NativeTest.*" />
+          <option name="PATTERN" value="Bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NativeTest" />
-      <option name="MAIN_CLASS_NAME" value="NativeTest.NativeTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Bike" />
+      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
+      <option name="METHOD_NAME" value="bikeTestThatSpeedCanBeDecrementedByOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearOne" />
-        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearToGearOne" />
-        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearToGearFour" />
-        <item itemvalue="TestNG.NativeTest" />
-        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearToGearThree" />
+        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearThreeToTwo" />
+        <item itemvalue="JUnit.BikeTest.bikeCannotBeNegative" />
+        <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearTwoToOne" />
+        <item itemvalue="JUnit.BikeTest.bikeTestThatSpeedCanBeDecrementedByOne" />
+        <item itemvalue="JUnit.BikeTest.bikeSpeedShouldNotBeNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +213,7 @@
       <workItem from="1661168474125" duration="18652000" />
       <workItem from="1661255480140" duration="1620000" />
       <workItem from="1661308332438" duration="8949000" />
+      <workItem from="1661341187521" duration="5219000" />
     </task>
     <servers />
   </component>
