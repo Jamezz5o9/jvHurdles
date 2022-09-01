@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter8/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,6 +212,12 @@
       <workItem from="1661255480140" duration="1620000" />
       <workItem from="1661308332438" duration="8949000" />
       <workItem from="1661341187521" duration="8773000" />
+      <workItem from="1661415745141" duration="2713000" />
+      <workItem from="1661483097310" duration="586000" />
+      <workItem from="1661486002527" duration="597000" />
+      <workItem from="1661621147694" duration="1212000" />
+      <workItem from="1661782549321" duration="594000" />
+      <workItem from="1662024391578" duration="1600000" />
     </task>
     <servers />
   </component>
@@ -237,6 +242,11 @@
           <url>file://$PROJECT_DIR$/src/com/unicornWimps/arrays/sales/Sales.java</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Bike/Bike.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Grace/work/checkArray.java</url>
