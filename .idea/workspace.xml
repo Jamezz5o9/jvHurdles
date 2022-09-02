@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myBank/InvalidAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myBank/ATM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myBank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myBank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/myBank/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myBank/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/myBank/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myBank/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,20 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.depositNegativeAmountThrowException">
+  <component name="RunManager" selected="Application.ATM">
+    <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myBank.ATM" />
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myBank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
@@ -138,29 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BikeTest.bikeCannotBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bike.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Bike" />
-      <option name="MAIN_CLASS_NAME" value="Bike.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCannotBeNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATM" />
         <item itemvalue="JUnit.AccountTest.depositNegativeAmountThrowException" />
         <item itemvalue="JUnit.BankTest.bankCanTransferFundsTest" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearThreeToTwo" />
-        <item itemvalue="JUnit.BikeTest.bikeCannotBeNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +215,7 @@
       <workItem from="1661621147694" duration="1212000" />
       <workItem from="1661782549321" duration="594000" />
       <workItem from="1662024391578" duration="2383000" />
-      <workItem from="1662125097615" duration="3751000" />
+      <workItem from="1662125097615" duration="9160000" />
     </task>
     <servers />
   </component>
