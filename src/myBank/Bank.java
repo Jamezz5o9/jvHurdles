@@ -30,4 +30,12 @@ public class Bank {
         account.withdraw(amount, pin);
         return account;
     }
+
+    public void transfer(String sender, String receiver, int amount, String pin) {
+        Account senderAccount  = findAccount(sender);
+        Account receiverAccount  = findAccount(receiver);
+
+        senderAccount.withdraw(amount, pin);
+        receiverAccount.deposit(amount);
+    }
 }

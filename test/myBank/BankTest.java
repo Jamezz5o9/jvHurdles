@@ -65,4 +65,24 @@ public class BankTest {
         assertEquals(2000, bankeAccount.getBalance("2727"));
     }
 
+    @Test
+    public void bankCanTransferFundsTest(){
+        // we have a bank
+        // we have 2 accounts
+        wemaBank.createAccountFor("Hadiza Roll-on", "needle");
+        wemaBank.createAccountFor("Hopeson Roll-on", "thread");
+
+        // account 1 has money
+        wemaBank.deposit(5000, "1");
+        assertEquals(5000, wemaBank.findAccount("1").getBalance("needle"));
+
+        //when we transfer x from account1 to account2
+        wemaBank.transfer("1", "2", 4900, "needle");
+
+        //check account 1 debit with x and account 2 is credited with x
+        assertEquals(100, wemaBank.findAccount("1").getBalance("needle"));
+        assertEquals(4900, wemaBank.findAccount("2").getBalance("thread"));
+
+    }
+
 }
