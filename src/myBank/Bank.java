@@ -1,5 +1,9 @@
 package myBank;
 
+import myBank.BankExceptions.InvalidAccountNumber;
+
+import java.util.Objects;
+
 public class Bank {
     private int numberOfCustomer;
     private final Account[] accounts = new Account[10];
@@ -15,7 +19,9 @@ public class Bank {
         for(Account account : accounts){
             if(account.getNumber().equals(accountNumber))
                 return account;
+            if(!Objects.equals(account.getNumber(), accountNumber)) throw new InvalidAccountNumber("Account Number does not exist");
         }
+
         return null;
     }
 
@@ -37,5 +43,10 @@ public class Bank {
 
         senderAccount.withdraw(amount, pin);
         receiverAccount.deposit(amount);
+    }
+    public int checkBalance(String pin, String accountNumber){
+        Account account = findAccount(accountNumber);
+        return account.getBalance(pin);
+
     }
 }

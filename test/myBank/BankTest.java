@@ -1,5 +1,6 @@
 package myBank;
 
+import myBank.BankExceptions.InvalidAccountNumber;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -83,6 +84,16 @@ public class BankTest {
         assertEquals(100, wemaBank.findAccount("1").getBalance("needle"));
         assertEquals(4900, wemaBank.findAccount("2").getBalance("thread"));
 
+    }
+    @Test
+    public void checkBalanceInCustomerAccount(){
+        wemaBank.createAccountFor("Adegoke", "neat");
+        wemaBank.deposit(5000, "1");
+        assertEquals(5000, wemaBank.checkBalance("neat", "1"));
+    }
+    @Test void accountDoesNotMatchAccountNumberSupplied(){
+        wemaBank.createAccountFor("Adegoke", "neat");
+        assertThrows(InvalidAccountNumber.class, () ->  wemaBank.deposit(5000, "200"));
     }
 
 }

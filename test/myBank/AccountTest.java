@@ -1,5 +1,6 @@
 package myBank;
 
+import myBank.BankExceptions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -61,6 +62,7 @@ public class AccountTest {
         //when i check my balance with wrong pin
         //balance is zero
 
+
         bankeAccount.deposit(2000);
         int myBalance = bankeAccount.getBalance("1212");
         assertEquals(2000, myBalance);
@@ -73,9 +75,11 @@ public class AccountTest {
         //when i check my balance with wrong pin
         //balance is zero
 
+
         bankeAccount.deposit(2000);
-        int myBalance = bankeAccount.getBalance("1234");
-        assertEquals(0, myBalance);
+//        int myBalance = bankeAccount.getBalance("1234");
+        assertThrows(InvalidPinException.class, () -> bankeAccount.getBalance("2342"));
+       // assertEquals(0, myBalance);
     }
 
     @Test

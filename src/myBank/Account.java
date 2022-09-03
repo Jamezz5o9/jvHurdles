@@ -1,5 +1,9 @@
 package myBank;
 
+import myBank.BankExceptions.*;
+
+import java.util.Objects;
+
 public class Account {
     private String pin;
     private String number;
@@ -13,6 +17,7 @@ public class Account {
         name = accountName;
     }
     public int getBalance(String pin){
+        if(!Objects.equals(pin, this.pin)) throw  new InvalidPinException("Pin entered is wrong");
         if(pin.equals(this.pin)) return balance;
         return 0;
     }
@@ -24,20 +29,12 @@ public class Account {
         balance = getBalance(pin) + amount;
     }
 
-    public String getPin() {
-        return pin;
-    }
-
     public String getNumber() {
         return number;
     }
 
     public String getName() {
         return name;
-    }
-
-    public int getBalance() {
-        return balance;
     }
 
     public void withdraw(int amount, String pin){

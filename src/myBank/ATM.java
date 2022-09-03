@@ -1,5 +1,7 @@
 package myBank;
 
+import myBank.BankExceptions.*;
+
 import java.util.Scanner;
 
 public class ATM {
