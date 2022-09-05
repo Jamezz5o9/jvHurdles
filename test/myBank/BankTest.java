@@ -38,7 +38,16 @@ public class BankTest {
         account = wemaBank.findAccount("1");
         assertEquals("Banke Celina Owolabi", account.getName());
 
+        wemaBank.createAccountFor("Owolabi", "1111");
+        assertEquals(2, wemaBank.getNumberOfCustomers());
+
+        account = wemaBank.findAccount("2");
+        assertEquals("Owolabi", account.getName());
+
+        assertThrows(NullPointerException.class, () -> wemaBank.findAccount("3"));
+
     }
+
 
     @Test
     public  void customerCanDepositInHerAccountTest(){

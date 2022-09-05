@@ -17,12 +17,11 @@ public class Bank {
     }
     public Account findAccount(String accountNumber) {
         for(Account account : accounts){
-            if(account.getNumber().equals(accountNumber))
-                return account;
-            if(!Objects.equals(account.getNumber(), accountNumber)) throw new InvalidAccountNumber("Account Number does not exist");
+            boolean myAccount = account.getNumber().equals(accountNumber);
+            if(myAccount) return account;
         }
 
-        return null;
+       throw new NullPointerException("Account Number does not exist");
     }
 
     public void deposit(int amount, String accountNumber) {
