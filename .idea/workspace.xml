@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Femi/FairTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Femi/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Femi/FairTaxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myBank/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myBank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Bank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -58,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Femi" />
       <recent name="myBank" />
       <recent name="Bike" />
       <recent name="com.unicornWimps.arrays.sales" />
       <recent name="com.unicornWimps.arrays.SalesTest" />
-      <recent name="com.unicornWimps.arrays.StoreTest" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -71,7 +73,7 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.myBank.ATM">
+  <component name="RunManager" selected="JUnit.FairTaxTest.testThatTaxCanBeCalculatedOnTheTotalPrice">
     <configuration name="myBank.ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="myBank.ATM" />
       <module name="classExercises" />
@@ -81,54 +83,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.getBalanceWithWrongPin_returnsZeroTestTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myBank.BankExceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.AccountTest" />
-      <option name="METHOD_NAME" value="getBalanceWithWrongPin_returnsZeroTestTwice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankTest.accountDoesNotMatchAccountNumberSupplied" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myBank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.BankTest" />
-      <option name="METHOD_NAME" value="accountDoesNotMatchAccountNumberSupplied" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankTest.checkBalanceInCustomerAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myBank.BankExceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myBank" />
-      <option name="MAIN_CLASS_NAME" value="myBank.BankTest" />
-      <option name="METHOD_NAME" value="checkBalanceInCustomerAccount" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,13 +103,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FairTaxTest.testThatFairTaxCanBeCalculatedOnProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Femi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Femi" />
+      <option name="MAIN_CLASS_NAME" value="Femi.FairTaxTest" />
+      <option name="METHOD_NAME" value="testThatFairTaxCanBeCalculatedOnProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FairTaxTest.testThatProductsTotalCanBeCalculated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Femi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Femi" />
+      <option name="MAIN_CLASS_NAME" value="Femi.FairTaxTest" />
+      <option name="METHOD_NAME" value="testThatProductsTotalCanBeCalculated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FairTaxTest.testThatTaxCanBeCalculatedOnTheTotalPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Femi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Femi" />
+      <option name="MAIN_CLASS_NAME" value="Femi.FairTaxTest" />
+      <option name="METHOD_NAME" value="testThatTaxCanBeCalculatedOnTheTotalPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FairTaxTest.testThatTaxCanBeCalculatedOnTheTotalPrice" />
+        <item itemvalue="JUnit.FairTaxTest.testThatProductsTotalCanBeCalculated" />
+        <item itemvalue="JUnit.FairTaxTest.testThatFairTaxCanBeCalculatedOnProduct" />
         <item itemvalue="Application.myBank.ATM" />
         <item itemvalue="JUnit.BankTest.create_findAccountByAccountNumberTest" />
-        <item itemvalue="JUnit.BankTest.accountDoesNotMatchAccountNumberSupplied" />
-        <item itemvalue="JUnit.AccountTest.getBalanceWithWrongPin_returnsZeroTestTwice" />
-        <item itemvalue="JUnit.BankTest.checkBalanceInCustomerAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +221,8 @@
       <workItem from="1662024391578" duration="2383000" />
       <workItem from="1662125097615" duration="9690000" />
       <workItem from="1662190911322" duration="29550000" />
-      <workItem from="1662394619336" duration="9873000" />
+      <workItem from="1662394619336" duration="11203000" />
+      <workItem from="1662454843905" duration="10532000" />
     </task>
     <servers />
   </component>
