@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Grace/work/compareArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grace/work/compareArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myBank/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myBank/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/ATM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/myBank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/myBank/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myBank/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankTest.create_findAccountByAccountNumberTest">
+  <component name="RunManager" selected="Application.myBank.ATM">
     <configuration name="myBank.ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="myBank.ATM" />
       <module name="classExercises" />
@@ -153,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankTest.create_findAccountByAccountNumberTest" />
         <item itemvalue="Application.myBank.ATM" />
+        <item itemvalue="JUnit.BankTest.create_findAccountByAccountNumberTest" />
         <item itemvalue="JUnit.BankTest.accountDoesNotMatchAccountNumberSupplied" />
         <item itemvalue="JUnit.AccountTest.getBalanceWithWrongPin_returnsZeroTestTwice" />
         <item itemvalue="JUnit.BankTest.checkBalanceInCustomerAccount" />
@@ -220,7 +218,8 @@
       <workItem from="1661782549321" duration="594000" />
       <workItem from="1662024391578" duration="2383000" />
       <workItem from="1662125097615" duration="9690000" />
-      <workItem from="1662190911322" duration="27687000" />
+      <workItem from="1662190911322" duration="29550000" />
+      <workItem from="1662394619336" duration="9873000" />
     </task>
     <servers />
   </component>

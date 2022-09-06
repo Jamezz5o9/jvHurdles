@@ -29,9 +29,10 @@ public class Bank {
        account.deposit(amount);
     }
 
+
     public Account withdraw(int amount, String accountNumber, String pin) {
         Account account = findAccount(accountNumber);
-        account.getBalance(accountNumber);
+        account.getBalance(pin);
         account.withdraw(amount, pin);
         return account;
     }

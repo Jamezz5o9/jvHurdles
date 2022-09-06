@@ -4,6 +4,8 @@ import myBank.BankExceptions.*;
 
 import java.util.Scanner;
 
+import static java.lang.System.exit;
+
 public class ATM {
     private static final Bank oniranu = new Bank();
 
@@ -57,9 +59,7 @@ public class ATM {
     private static void  transfer(){
 
     }
-    private static void exit(int status){
 
-    }
     private static void withdraw(){
 
     }
@@ -69,8 +69,10 @@ public class ATM {
         try {
             oniranu.deposit(amount, accountNumber);
         }
-        catch(InvalidAmountException ex){
-            display(ex.getMessage());
+        catch(NullPointerException ex){
+            //System.out.println("Account does not exist");
+            //display(ex.getMessage());
+            display("Account doesn't exist");
             deposit();
         }
        startAtm();
