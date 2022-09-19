@@ -6,9 +6,10 @@ import java.util.Objects;
 
 public class Bank {
     private int numberOfCustomer;
+    private Account account;
     private final Account[] accounts = new Account[10];
     public void createAccountFor(String accountName, String pin) {
-        Account account = new Account((numberOfCustomer+1)+ "", accountName, pin);
+        account = new Account((numberOfCustomer+1)+ "", accountName, pin);
         accounts[numberOfCustomer] = account;
         numberOfCustomer++;
     }
@@ -16,6 +17,9 @@ public class Bank {
         return numberOfCustomer;
     }
     public Account findAccount(String accountNumber) {
+//        for(int i = 0; i < accounts.length; i++){
+//            if(Objects.equals(accounts[i].getNumber(), accountNumber)) return account;
+//        }
         for(Account account : accounts){
             boolean myAccount = account.getNumber().equals(accountNumber);
             if(myAccount) return account;

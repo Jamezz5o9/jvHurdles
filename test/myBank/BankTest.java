@@ -100,9 +100,9 @@ public class BankTest {
         wemaBank.deposit(5000, "1");
         assertEquals(5000, wemaBank.checkBalance("neat", "1"));
     }
-    @Test void accountDoesNotMatchAccountNumberSupplied(){
-        wemaBank.createAccountFor("Adegoke", "neat");
-        assertThrows(InvalidAccountNumber.class, () ->  wemaBank.deposit(5000, "200"));
-    }
+//    @Test void accountDoesNotMatchAccountNumberSupplied(){
+//        wemaBank.createAccountFor("Adegoke", "neat");
+//        assertThrows(InvalidAccountNumber.class, () ->  wemaBank.deposit(5000, "200"));
+//    }
 
 }

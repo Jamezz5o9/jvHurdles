@@ -6,6 +6,6 @@ public class Main {
     }
 
     private static void startApp() {
-        String newInput = input();
+       // String newInput = input();
     }
 }

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d0ced-93c2-4d29-be23-cf46fbe05ec8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Femi/FairTax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Femi/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Femi/FairTaxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Femi/PollingArrayExercise/Polling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Femi/PollingArrayExercise/PollTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Femi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Femi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myBank/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myBank/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/myBank/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/myBank/BankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RebelAgentSelection">
@@ -60,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Femi.PollingArrayExercise" />
       <recent name="Femi" />
       <recent name="myBank" />
       <recent name="Bike" />
       <recent name="com.unicornWimps.arrays.sales" />
-      <recent name="com.unicornWimps.arrays.SalesTest" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -73,16 +76,25 @@
       <recent name="myBank" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FairTaxTest.testThatTaxCanBeCalculatedOnTheTotalPrice">
-    <configuration name="myBank.ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myBank.ATM" />
+  <component name="RunManager" selected="JUnit.BankTest.create_findAccountByAccountNumberTest">
+    <configuration name="Polling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polling" />
+      <module name="classExercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myBank.BankExceptions.*" />
+          <option name="PATTERN" value="myBank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="myBank" />
+      <option name="MAIN_CLASS_NAME" value="myBank.BankTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,22 +110,6 @@
       <option name="PACKAGE_NAME" value="myBank" />
       <option name="MAIN_CLASS_NAME" value="myBank.BankTest" />
       <option name="METHOD_NAME" value="create_findAccountByAccountNumberTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FairTaxTest.testThatFairTaxCanBeCalculatedOnProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Femi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Femi" />
-      <option name="MAIN_CLASS_NAME" value="Femi.FairTaxTest" />
-      <option name="METHOD_NAME" value="testThatFairTaxCanBeCalculatedOnProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankTest.create_findAccountByAccountNumberTest" />
+        <item itemvalue="Application.Polling" />
+        <item itemvalue="JUnit.BankTest" />
         <item itemvalue="JUnit.FairTaxTest.testThatTaxCanBeCalculatedOnTheTotalPrice" />
         <item itemvalue="JUnit.FairTaxTest.testThatProductsTotalCanBeCalculated" />
-        <item itemvalue="JUnit.FairTaxTest.testThatFairTaxCanBeCalculatedOnProduct" />
-        <item itemvalue="Application.myBank.ATM" />
-        <item itemvalue="JUnit.BankTest.create_findAccountByAccountNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +218,18 @@
       <workItem from="1662125097615" duration="9690000" />
       <workItem from="1662190911322" duration="29550000" />
       <workItem from="1662394619336" duration="11203000" />
-      <workItem from="1662454843905" duration="10532000" />
+      <workItem from="1662454843905" duration="17197000" />
+      <workItem from="1662480654255" duration="84000" />
+      <workItem from="1662519529826" duration="3571000" />
+      <workItem from="1662554421919" duration="728000" />
+      <workItem from="1662572801087" duration="677000" />
+      <workItem from="1662626317206" duration="6684000" />
+      <workItem from="1662901407546" duration="728000" />
+      <workItem from="1663025125164" duration="44000" />
+      <workItem from="1663154267775" duration="72000" />
+      <workItem from="1663238506198" duration="96000" />
+      <workItem from="1663280446880" duration="2527000" />
+      <workItem from="1663403393358" duration="2081000" />
     </task>
     <servers />
   </component>
